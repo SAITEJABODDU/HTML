@@ -1,0 +1,68 @@
+
+    <input type="button" id="btn1" name="btn1" value="Set Local Data" onclick="SetClientStore_local()" />
+
+    <input type="button" id="btn1" name="btn1" value="Set Session Data" onclick="SetClientStore_session()" />     <input type="button" id="btn1" name="btn1" value="Get Local Data" onclick="GetClientStore_local()" />
+
+    <input type="button" id="btn1" name="btn1" value="Get Session Data" onclick="GetClientStore_session()" />
+
+    function SetClientStore_local()
+
+    {​​​​​
+
+      localStorage.setItem('name','Chris');
+
+    }​​​​​     function SetClientStore_session()
+
+    {​​​​​
+
+      sessionStorage.setItem('surname','Gayle'); // to remove => .removeItem. To clear => .clear
+
+    }​​​​​     function GetClientStore_local()
+
+    {​​​​​
+
+      let myName = localStorage.getItem('name');
+
+      alert(myName); 
+
+    }​​​​​     function GetClientStore_session()
+
+    {​​​​​
+
+      let myName = sessionStorage.getItem('surname');
+
+      alert(myName);
+
+    }​​​​​
+
+[13:25] Suman Aich (Guest)
+    function SetClientStore_local()
+
+    {​​​​​
+
+      localStorage.setItem('name','Chris');
+
+    }​​​​​     function SetClientStore_session()
+
+    {​​​​​
+
+      sessionStorage.setItem('surname','Gayle'); // to remove => .removeItem. To clear => .clear
+
+    }​​​​​     function GetClientStore_local()
+
+    {​​​​​
+
+      let myName = localStorage.getItem('name');
+
+      alert(myName); 
+
+    }​​​​​     function GetClientStore_session()
+
+    {​​​​​
+
+      let myName = sessionStorage.getItem('surname');
+
+      alert(myName);
+
+    }​​​​​
+
